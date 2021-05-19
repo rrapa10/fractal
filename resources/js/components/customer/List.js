@@ -42,7 +42,7 @@ function List(){
 
   return (
     <section>
-      <table class="table" id="customer-table">
+      <table class="table display" id="customer-table">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
