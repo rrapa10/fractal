@@ -26,36 +26,7 @@
 
   <div id="main-customer"></div>
   <script src="/js/app.js"></script>
-  <script>
-  	$(document).ready(function(){
-  		$("#customer-table").DataTable({
-  			processing: true,
-  			serverSide: true,
-  			columns:[
-  				{
-  					data: 'first_name',
-  					name: 'first_name'
-  				},
-  				{
-  					data: 'last_name',
-  					name: 'last_name'
-  				},
-  				{
-  					data: 'email',
-  					name: 'email'
-  				},
-  				{
-  					data: 'phone_number',
-  					name: 'phone_number'
-  				},
-  				{
-  					data: 'birth_date',
-  					name: 'birth_date'
-  				}
-  			]
-  		});
-  	})
-  </script>
+  
 
 </div>
 </body>
